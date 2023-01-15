@@ -1,0 +1,11 @@
+CriterionID|CriterionWeight|CriterionName|CriterionDescription
+XCurrency|50|XCurrency|Ability to purchase in-game currency with real currency
+GameCoins|50|GameCoins|In-game currency that is not intended for use during gameplay but instead to Buy* something
+Lootboxes|50|Lootboxes|Option to Buy* something that gives random Benefits*
+Microtransactions|50|Microtransactions|Option to Buy* specific small-scale Benefits*
+DLC|50|Downloadable Content (DLC)|Option to Buy* specific large-scale Benefits* that are not standalone by themselves
+SocialBoosting|50|SocialBoosting|Ability to use social network engagement (e.g. sharing Achievements* with connections) to gain Benefits*
+Battlepasses|50|Battlepasses|Option to Buy* time-bound access to completing Achievements* that in turn award Benefits*
+PEC|50|Platform-exclusive Content (PEC)|Game content that, excluding technical limitations, can only be accessed through a specific platform (i.e. console, operating system, etc)
+FastContentDecay|50|Fast Content Decay|Adopts one or more of the following decay mechanisms: Yearly game releases, Benefits* that expire with time or new releases
+

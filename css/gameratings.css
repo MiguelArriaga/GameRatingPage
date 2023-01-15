@@ -1,0 +1,71 @@
+#rating {
+    font-size: 20px;
+}
+
+#game-name {
+    font-size: 40px;
+}
+
+#rating table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#rating td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.criterion-description {
+    font-style: italic;
+    font-size: small;
+    color: darkgray;
+}
+
+.definition-word {
+    text-decoration: underline dotted;
+    text-decoration-color: darkgray;
+    text-decoration-thickness: 1px;
+    transition: color 0s ease-in-out;
+}
+
+.definition-word:hover {
+    color: #87CEFA;
+}
+
+#adefinition-title {
+    font-size: x-large;
+    padding-top: 80px;
+    color: darkgray;
+}
+
+#adefinitions {
+    font-size: small;
+    color: darkgray;
+}
+
+
+
+#global-rating-display {
+    width: 50%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#canvas-gauge {
+    display: inline-block;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+}
+
+#global-rating-value {
+    display: inline-block;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    font-family: 'Amaranth', sans-serif;
+}

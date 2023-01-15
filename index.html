@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Predatory Game Rating</title>
+    <link rel="stylesheet" type="text/css" href="css/pagestyles.css">
+    <link rel="stylesheet" type="text/css" href="css/gameratings.css">
+
+    <script src="http://bernii.github.io/gauge.js/dist/gauge.min.js"></script>
+    <!-- <script src="jsScripts/gauge.js"></script> -->
+    <script src="jsScripts/variables.js"></script>
+    <script src="jsScripts/loader.js"></script>
+    <script src="jsScripts/showratings.js"></script>
+    <script src="jsScripts/globalrating.js"></script>
+</head>
+
+<body onload="loadRatings()">
+    <div id="game-list">
+        <h1>Predatory Game Rating</h1>
+    </div>
+    <div id="game-details">
+        <div id='game-name'></div>
+        <div id="rating-display">
+            <p id="rating"></p>
+        </div>
+        <div id="global-rating-display">
+            <canvas id="canvas-gauge" width="200" height="100">
+            </canvas><div id="global-rating-value">0</div>
+        </div>
+        <div id="additional-definitions">
+            <div id='adefinition-title'>Additional Definitions:</div>
+            <p id="adefinitions">
+                </p>
+        </div>
+    </div>
+</body>
+
+</html>
